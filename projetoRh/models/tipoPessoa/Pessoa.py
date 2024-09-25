@@ -1,5 +1,5 @@
-from abc import ABC,abstractmethod
-from models.Endereco import Endereco
+from abc import ABC
+from projetoRh.models.Endereco import Endereco
 class Pessoa(ABC):
         def __init__(self,id:int,nome:str,telefone:str,email:str,endereco:Endereco) -> None:
                 self.id = id
