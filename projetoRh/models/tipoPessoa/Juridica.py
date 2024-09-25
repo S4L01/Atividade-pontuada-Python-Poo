@@ -1,4 +1,4 @@
-from abc import ABC,abstractmethod
+from abc import ABC
 from projetoRh.models.tipoPessoa.Pessoa import Pessoa
 from projetoRh.models.Endereco import Endereco
 

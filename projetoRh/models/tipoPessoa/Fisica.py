@@ -2,7 +2,6 @@ from projetoRh.models.enums.Sexo import Sexo
 from projetoRh.models.enums.EstadoCivil import EstadoCivil
 from projetoRh.models.tipoPessoa.Pessoa import Pessoa
 from projetoRh.models.Endereco import Endereco
-
 from abc import ABC
 
 
