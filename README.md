@@ -1,1 +1,0 @@
-# Atividade-pontuada-python-poo
