@@ -7,7 +7,10 @@ class Pessoa(ABC):
                 self.telefone= telefone
                 self.email = email
                 self.endereco = endereco
-
+                try:
+                        self.nome = ""
+                except:
+                        print("Algo de errado no nome :/")
         def __str__(self) -> str:
                 return (f"\nId:{self.id}"
                         f"\nNome:{self.nome}"
