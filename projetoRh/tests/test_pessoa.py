@@ -1,7 +1,7 @@
 import pytest
-from ..models.tipoPessoa.Pessoa import Pessoa
-from ..models.Endereco import Endereco
-from ..models.enums.UnidadeFederativa import UnidadeFederativa
+from projetoRh.models.tipoPessoa.Pessoa import Pessoa
+from projetoRh.models.Endereco import Endereco
+from projetoRh.models.enums.UnidadeFederativa import UnidadeFederativa
 @pytest.fixture
 def pessoa_valida():
     pessoa = Pessoa(12,"salo","7198888",18,"@algumacoisa",
